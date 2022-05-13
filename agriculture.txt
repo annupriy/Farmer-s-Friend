@@ -1,0 +1,51 @@
+AGRICULTURE
+
+We have stored information about various crops with their respective Soil
+type, Season and crop type i.e. Cash or food. First of all the user will
+enter details as per his preferred conditions mentioned above. Then we will 
+take out the intersection of the crops estimated from each set of information
+resulting to the most compatible crop. 
+
+The overall representation of the code goes below:
+1. Storing the crops with the help of multi-dimensional array.
+2. Using it's index for the indentification of crops to perform further
+required operations.
+3. Storing all the crops(by their indexes) manually by making respective new
+arrays for each specifications soil type,season and crop type.
+4. Take inputs of soil type, season and crop type by user.
+5. Select the right array by if-else-if-else/switch statement for all 3 inputs.
+6. Take out the intersection of those 3 arrays and store the result in a new array.
+7. If the intersection is not-null,Convert the indexes to crops and display them on screen.
+8. If the intersection is null,Ask user to compormise and drop one of the input.
+9. Repeat the whole process using those two inputs.
+
+
+
+
+CODE:
+input: soil type     season      cash/food
+1:     clay           rabi        yes      
+processing-- clay-  {1,5,6,8}  {7,4,2,6,5}  {5,7,6}
+we will make a function and take out the intersection 
+the result is {5,6}
+
+
+For storing data type:
+1: Crops and numbers assigned
+2. rice=01 wheat=02 tea=03..........
+   for soil type if (clay) -> 1,5,7,4,2,5
+   for season ............................
+   for cash .............................
+
+   intersection 
+
+   convert 01- rice and simultaneously.
+
+   for(int i=0; i<count; i++){
+       j=chararray[j]}
+
+if(j==5) cout<<wheat;
+
+
+
+
