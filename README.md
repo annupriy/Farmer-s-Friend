@@ -7,4 +7,4 @@ Hence we present you the Farmer's Friend. 
 The program has a simple interface and takes information on three parameters- weather, soil type and crop type from the farmer according to his priorities 
 and provides information about the best suitable crop to his priorities.
 
-You can see its detailed presentation in the given ppt below.
+**You can see its detailed presentation in the ppt given.**
